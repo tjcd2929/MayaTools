@@ -2,9 +2,9 @@
 import maya.cmds as cmds
 
 """
-import symods.smartBake_TEST
-reload(symods.smartBake_TEST)
-from symods.smartBake_TEST import smartBake_TEST
+import mods.common.smartBake_TEST
+reload(mods.common.smartBake_TEST)
+from mods.common.smartBake_TEST import smartBake_TEST
 """
 
 import mods.revCnst

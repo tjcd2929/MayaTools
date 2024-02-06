@@ -268,7 +268,7 @@ def forceReflesh():
     cmds.dgdirty(a=True)
     cmds.refresh(force=True)
 
-@symods.other.undo_chanck.undo_chunk
+@mods.common.undo_chanck.undo_chunk
 def bakeSetkeyframe(nodes=None,start_frame=None,end_frame=None):
     u'''
     bakeSimulationだと何か変になっちゃうときの強制アニメーションベイク（setKeyframeを指定範囲でやっているだけ）

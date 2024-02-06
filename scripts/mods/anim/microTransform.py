@@ -215,13 +215,13 @@ modTZ.switch()
 
 '''
 #how to use 2
-import symods.anim.microTransform
-reload(symods.anim.microTransform)
+import mods.anim.microTransform
+reload(mods.anim.microTransform)
 
 sel = cmds.ls(sl=1)[0]
-modTX = symods.anim.microTransform.microTransform(sel,'translateX',0.1)
-modTY = symods.anim.microTransform.microTransform(sel,'translateY',0.1)
-modTZ = symods.anim.microTransform.microTransform(sel,'translateZ',0.1)
+modTX = mods.anim.microTransform.microTransform(sel,'translateX',0.1)
+modTY = mods.anim.microTransform.microTransform(sel,'translateY',0.1)
+modTZ = mods.anim.microTransform.microTransform(sel,'translateZ',0.1)
 
 modTX.switch()
 modTY.switch()

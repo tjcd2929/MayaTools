@@ -1,8 +1,8 @@
 ## -*- coding:utf8 -*-
 import maya.cmds as cmds
 
-from symods.smartBake import *
-from symods.delConst import *
+from mods.common.smartBake import *
+from mods.common.delConst import *
 
 def motion2Curve():
     for work in cmds.ls(sl=1,l=1):

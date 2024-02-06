@@ -7,7 +7,7 @@ from mods.common.delConst import delConst
 #選択したものに対して、様々なロケータを作成するクラス
 
 #使用例
-#import symods.selLoc as selLoc
+#import tools.common.selLoc as selLoc
 #selLoc = selLoc.selLoc()
 #selLoc.cnst("long")
 #selLoc.bake("short")
