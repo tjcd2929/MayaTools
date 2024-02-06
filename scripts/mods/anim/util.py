@@ -2,7 +2,7 @@
 import maya.cmds as cmds
 import maya.mel as mel
 
-import symods.other.undo_chanck
+import mods.common.undo_chanck
 
 class keyframeUtil():
     def __init__(self):
