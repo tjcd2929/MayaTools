@@ -7,9 +7,9 @@ reload(mods.common.smartBake_TEST)
 from mods.common.smartBake_TEST import smartBake_TEST
 """
 
-import mods.revCnst
-reload(mods.revCnst)
-from mods.revCnst import *
+import mods.anim.revCnst
+reload(mods.anim.revCnst)
+from mods.anim.revCnst import *
 
 width = 170
 if cmds.window("revCnstWindow",ex=1) == 1:
